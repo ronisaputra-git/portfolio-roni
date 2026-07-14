@@ -8,12 +8,12 @@ function Project(){
     tahun: 2026,
     status: "Sedang Dikembangakan",
     teknologi : ["React", "css","javascript"],
-    link: "https://github.com/username/portfolio",
-    gambar: "/bahlil.jpg",
-    github:"https://github.com/username/portfolio",
+    link: "https://github.com/ronisaputra-git/portfolio-roni",
+    gambar: "/web_porto-roni.png",
+    github:"https://github.com/ronisaputra-git/portfolio-roni",
     demo:"https://portfolio.vercel.app"
 
-    },
+    }
 ]
     return(
         <section id="project" className="project"data-aos="fade-up">
