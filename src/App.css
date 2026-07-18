@@ -55,6 +55,39 @@
       scale(0.8);
   }
 }
+/* Mencegah halaman melebar ke samping */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Semua elemen menggunakan perhitungan ukuran yang aman */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 100%;
+}
+
+.hero-image,
+.hero-image img,
+.hero-right img {
+    max-width: 100%;
+}
 
 #center {
   display: flex;
@@ -198,21 +231,27 @@ html{
     scroll-behavior:smooth;
 }
 @media (max-width:768px){
-
-    .hero-content{
-
-        flex-direction:column;
+    .hero {
+        padding: 40px 20px 60px;
+        width: 100%;
     }
 
-    .skills-container{
-
-        justify-content:center;
+    .hero-content {
+        width: 100%;
+        gap: 30px;
     }
 
-    .project-container{
-
-        justify-content:center;
+    .hero-image {
+        width: 260px;
+        height: 260px;
+        max-width: 100%;
     }
 
+    .hero-image img {
+        width: 235px;
+        height: 235px;
+        max-width: 90%;
+    }
 }
+
 

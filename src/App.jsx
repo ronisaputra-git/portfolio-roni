@@ -6,6 +6,7 @@ import Navbar from './component/Navbar'
 import Hero from './component/Hero'
 import About from './component/About'
 import Skills from './component/Skills'
+import Sertifikat from './component/Sertifikat'
 import Project from './component/Project'
 import Contact from './component/Contact'
 import Footer from './component/Footer'
@@ -50,14 +51,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero  
-        nama="Roni Saputra"
-        profesi="Fresh Graduate Teknik Informatika"
-        deskripsi="Saya memiliki minat dalam Web Development dan Multimedia"
-        universitas="Universitas Dayanu Ikhsanuddin Baubau"
+      <Hero
+      nama={"Roni Saputra"}
       />
       <About/>
       <Skills skills={skills} />
+      <Sertifikat/>
       <Project/>
       <Contact/>
       <Footer/>

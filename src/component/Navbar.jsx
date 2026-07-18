@@ -85,7 +85,15 @@ function Navbar() {
                         Skills
                     </a>
                 </li>
-
+                <li>
+                    <a
+                        href="#sertifikat"
+                        className={active === "sertifikat" ? "active" : ""}
+                        onClick={closeMenu}
+                    >
+                        Sertifikat
+                    </a>
+                </li>
                 <li>
                     <a
                         href="#project"
