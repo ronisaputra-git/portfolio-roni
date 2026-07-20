@@ -91,7 +91,7 @@ function Navbar() {
                         className={active === "sertifikat" ? "active" : ""}
                         onClick={closeMenu}
                     >
-                        Sertifikat
+                        Certificates
                     </a>
                 </li>
                 <li>

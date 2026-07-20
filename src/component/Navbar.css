@@ -5,9 +5,13 @@
     align-items:center;
     padding:15px 20px;
     background:linear-gradient(90deg,#2563eb,#7c3aed);
-    position:sticky;
+    position:fixed;
     top:0;
     z-index:1000;
+    box-sizing: border-box;
+    width: min(1126px, 100%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo{

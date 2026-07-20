@@ -12,7 +12,7 @@ function Contact() {
             <div className="contact-card">
 
                 <a
-                    href="mailto:emailkamu@gmail.com"
+                    href="mailto:roniisaputra652@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -20,19 +20,20 @@ function Contact() {
                     <span>roniisaputra652.com</span>
                 </a>
                 <a
-                    href="https://wa.me/628xxxxxxxxxx"
+                    href="https://wa.me/628239332497"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <FaWhatsapp />
                     <span>+62 8239-331-2497</span>
                 </a>
-                 <p>
-                    <FaGithub /> GitHub
-                </p>
-                <p>
-                    <FaLinkedin /> LinkedIn
-                </p>
+                 <a  
+                    href="https://github.com/ronisaputra-git"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <FaGithub /> ronisaputra-git
+                </a>
                  <div className="location">
 
                     <FaLocationDot />

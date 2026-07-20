@@ -1,5 +1,5 @@
 .hero{
-    padding:40px 60px 80px;
+    padding:125px 60px 80px;
     position:relative;
     overflow:hidden;
     background:linear-gradient(135deg,#020617,#0f172a,#1e293b);
@@ -208,7 +208,7 @@
 
     .hero{
 
-        padding:50px 20px;
+        padding:100px 20px 60px;
     }
 
     .hero-content{

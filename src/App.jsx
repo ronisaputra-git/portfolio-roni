@@ -10,6 +10,7 @@ import Sertifikat from './component/Sertifikat'
 import Project from './component/Project'
 import Contact from './component/Contact'
 import Footer from './component/Footer'
+import skills from "./data/Skills";
 
 function App() {
       useEffect(() => {
@@ -23,31 +24,7 @@ function App() {
         });
 
     }, []);
-  const skills=[ {
-        id: 1,
-        nama: "HTML",
-        level: "Mahir"
-    },
-    {
-        id: 2,
-        nama: "CSS",
-        level: "Mahir"
-    },
-    {
-        id: 3,
-        nama: "JavaScript",
-        level: "Menengah"
-    },
-    {
-        id: 4,
-        nama: "React",
-        level: "Pemula"
-    },
-    {
-        id: 5,
-        nama: "Git",
-        level: "Pemula"
-    }]
+
   return (
     <>
       <Navbar />

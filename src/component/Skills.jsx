@@ -17,6 +17,11 @@ function Skills({ skills }) {
         React: <FaReact className="react" />,
         Git: <FaGitAlt className="git" />
     };
+    const iconn = {
+        "Artificial Intelligence (AI)":"🤖",
+        "Computer Operational":"💻",
+        "Microsoft Office":"📊" 
+    };
 
     return (
 
@@ -34,15 +39,15 @@ function Skills({ skills }) {
 
                     <div
                         className="skill-card"
-                        key={skill.id}
-                    >
-
+                        key={skill.id}>
                         <div className="skill-icon">
 
                             {icons[skill.nama]}
+                                <span className="skill-iconn">
+                                    {iconn[skill.nama]}
+                                </span>
 
                         </div>
-
                         <h3>{skill.nama}</h3>
 
                         <p>{skill.level}</p>

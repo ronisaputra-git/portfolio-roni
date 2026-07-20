@@ -22,11 +22,9 @@ function Hero({ nama, profesi, deskripsi, universitas }) {
                         sequence={[
                             "Fresh Graduate Teknik Informatika",
                             2000,
-                            "Frontend Developer",
+                            "Aspiring Front-End Developer",
                             2000,
-                            "React Developer",
-                            2000,
-                            "Web Developer",
+                            "Aspiring Web Developer",
                             2000,
                         ]}
                         wrapper="span"

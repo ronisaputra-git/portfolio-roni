@@ -13,7 +13,7 @@ function Sertifikat() {
 
         <section id="sertifikat" className="sertifikat">
 
-            <h2>Sertifikat</h2>
+            <h2>Certificates</h2>
 
         <Swiper
 

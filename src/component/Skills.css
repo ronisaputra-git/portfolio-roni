@@ -98,12 +98,22 @@
     transform:translateY(-8px) scale(1.08);
     background: linear-gradient(135deg, #052d5e, #0d4bcf);
 }
-
+.skill-iconn {
+    font-size: 45px;
+    line-height: 1;
+}
 .skill-card h3{
 
-    font-size:22px;
+    font-size:16px;
     margin-bottom:10px;
     color:#1e293b;
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.3;
 }
 
 .skill-card p{
@@ -111,6 +121,7 @@
     color:#64748b;
     font-size:15px;
     font-weight:500;
+    margin-top: auto;
 }
 
 .html{
