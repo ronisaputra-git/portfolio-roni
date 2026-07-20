@@ -1,9 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./Sertifikat.css";
-
 import SertifikatCard from "./SertifikatCard";
 import sertifikatData from "../data/Sertifikat";
 
@@ -12,24 +11,14 @@ function Sertifikat() {
     return (
 
         <section id="sertifikat" className="sertifikat">
-
             <h2>Certificates</h2>
 
         <Swiper
 
-            modules={[Pagination, Autoplay]}
-
+            modules={[Pagination]}
             pagination={{ clickable: true }}
-
-            autoplay={{
-                delay: 3000,
-                disableOnInteraction: false,
-            }}
-
             spaceBetween={30}
-
             breakpoints={{
-
                 320:{
                     slidesPerView:1,
                 },
@@ -45,15 +34,11 @@ function Sertifikat() {
             }}
 
         >
-
             {sertifikatData.map((sertifikat)=>(
-
                 <SwiperSlide key={sertifikat.id}>
-
                     <SertifikatCard
                         sertifikat={sertifikat}
                     />
-
                 </SwiperSlide>
 
             ))}

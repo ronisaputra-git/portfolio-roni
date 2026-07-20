@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./SertifikatCard.css";
 import { FaCertificate } from "react-icons/fa";
 
 function SertifikatCard({ sertifikat }) {
-    const [preview, setPreview] = useState(false);
     return (
 
         <div className="sertifikat-card">
@@ -14,7 +12,6 @@ function SertifikatCard({ sertifikat }) {
                 src={sertifikat.image}
                 alt={sertifikat.title}
                 className="sertifikat-image"
-                onClick={() => setPreview(true)}
             />
 
             <span className="sertifikat-badge">
@@ -51,36 +48,6 @@ function SertifikatCard({ sertifikat }) {
                 </a>
 
             </div>
-            {preview && (
-
-            <div
-                className="preview-overlay"
-                onClick={() => setPreview(false)}
-            >
-
-                <div
-                    className="preview-box"
-                    onClick={(e) => e.stopPropagation()}
-                >
-
-                    <button
-                        className="close-preview"
-                        onClick={() => setPreview(false)}
-                    >
-                        ✕
-                    </button>
-
-                    <img
-                        src={sertifikat.image}
-                        alt={sertifikat.title}
-                        className="preview-image"
-                    />
-
-                </div>
-
-            </div>
-
-        )}
 
         </div>
 

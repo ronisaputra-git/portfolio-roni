@@ -11,7 +11,7 @@ function Project(){
     link: "https://github.com/ronisaputra-git/portfolio-roni",
     gambar: "/web_porto-roni.png",
     github:"https://github.com/ronisaputra-git/portfolio-roni",
-    demo:"https://portfolio.vercel.app"
+    demo:"https://portfolio-roni-self.vercel.app"
 
     }
 ]

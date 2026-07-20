@@ -12,12 +12,12 @@ function Contact() {
             <div className="contact-card">
 
                 <a
-                    href="mailto:roniisaputra652@gmail.com"
+                    href="mailto:roniisaputra256@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <MdEmail />
-                    <span>roniisaputra652.com</span>
+                    <span>roniisaputra256@gmail.com</span>
                 </a>
                 <a
                     href="https://wa.me/628239332497"
@@ -25,7 +25,7 @@ function Contact() {
                     rel="noreferrer"
                 >
                     <FaWhatsapp />
-                    <span>+62 8239-331-2497</span>
+                    <span>+62 823 9331 2497</span>
                 </a>
                  <a  
                     href="https://github.com/ronisaputra-git"
