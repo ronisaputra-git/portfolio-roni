@@ -20,7 +20,7 @@ function Contact() {
                     <span>roniisaputra256@gmail.com</span>
                 </a>
                 <a
-                    href="https://wa.me/628239332497"
+                    href="https://wa.me/6282393312497"
                     target="_blank"
                     rel="noreferrer"
                 >
