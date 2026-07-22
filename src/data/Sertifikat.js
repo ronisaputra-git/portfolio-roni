@@ -92,7 +92,7 @@ const sertifikat = [
   {
     id: 10,
     title: "Voluntrip GenBI - Desa Bukit Asri",
-    issuer: "GenBI",
+    issuer: "GenBI Unidayan",
     year: "2024",
     category: "Volunteer & Social",
     description: "Penghargaan dalam kegiatan voluntrip batch IV GenBI Unidayan.",

@@ -4,7 +4,7 @@ function Project(){
     const project = [
     {id : 1,
     judul : "Website portofolio",
-    deskripsi : "website di gunakan untuk membuat sebuah portofolio yang menarik",
+    deskripsi : "Website ini di desain untuk menampilkan sebuah portofolio yang menarik",
     tahun: 2026,
     status: "Sedang Dikembangakan",
     teknologi : ["React", "css","javascript"],
