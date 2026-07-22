@@ -29,10 +29,6 @@ function Skills({ skills }) {
 
             <h2>My Skills</h2>
 
-            <p className="skill-subtitle">
-                Teknologi yang saya gunakan untuk membangun website modern.
-            </p>
-
             <div className="skills-container">
 
                 {skills.map((skill) => (

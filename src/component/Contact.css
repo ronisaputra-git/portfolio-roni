@@ -1,18 +1,16 @@
 .contact{
 
-    padding:70px 20px;
+    padding:40px 60px 80px;
     text-align:center;
 }
 
 .contact h2{
-
     font-size:40px;
-    margin-bottom:15px;
+    margin-bottom:40px;
     color:white;
 }
 
 .contact-desc{
-
     color:#cbd5e1;
     max-width:650px;
     margin:0 auto 40px;
@@ -20,7 +18,6 @@
 }
 
 .contact-card{
-
     max-width:550px;
     margin:auto;
     background:white;
@@ -34,7 +31,6 @@
 
 .contact-card a,
 .location{
-
     display:flex;
     align-items:center;
     gap:15px;
@@ -47,34 +43,28 @@
 }
 
 .contact-card a:hover{
-
     background:#eff6ff;
     transform:translateX(8px);
-
     color:#2563eb;
 }
 
 .contact-card svg{
-    
     font-size:24px;
     color:linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #312e81 100%)b;
 }
 
 .location{
-
     cursor:default;
 }
 
 @media(max-width:768px){
 
     .contact-card{
-
         padding:20px;
     }
 
     .contact-card a,
     .location{
-
         font-size:15px;
     }
 

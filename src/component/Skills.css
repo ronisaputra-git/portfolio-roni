@@ -70,6 +70,7 @@
     box-shadow:0 10px 25px rgba(0,0,0,.08);
     transition:.35s;
     border:1px solid transparent;
+    margin-top: 25px;
 }
 
 .skill-card:hover{

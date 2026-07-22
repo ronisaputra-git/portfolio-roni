@@ -1,40 +1,29 @@
 .about{
-
     padding:40px 60px 80px;
     text-align:center;
     background:#0f172a(22, 2, 2);
 }
 
 .about h2{
-
     font-size:42px;
-
     color:white;
-
     margin-bottom:25px;
 }
 
 .about-text{
-
     max-width:800px;
     text-align: justify;
     margin:auto;
-
     font-size:18px;
-
     line-height:1.8;
-
     color:#828ea0;
 }
 @media (max-width:768px){
 
     .about{
-
         padding:60px 20px;
     }
-
     .about-content{
-
         flex-direction:column;
     }
 
