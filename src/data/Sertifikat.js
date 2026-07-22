@@ -45,7 +45,7 @@ const sertifikat = [
     issuer: "MySkill",
     year: "2026",
     category: "Artificial Intelligence",
-    description: "Pemanfaatan berbagai tools AI.",
+    description: "Pemanfaatan berbagai tools AI",
     image: "/Maximizing_The_Use_Of_AI_Tools.png",
     link: "/Maximizing_The_Use_Of_AI_Tools.pdf",
   },
